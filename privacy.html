@@ -27,7 +27,7 @@
             <div class="hero-copy">
                 <span class="eyebrow">Privacy Policy</span>
                 <h1>Your home data stays intentional.</h1>
-                <p class="lead">Home Floorplan is designed around Apple Home, local floorplans, and optional AI features that you choose to configure.</p>
+                <p class="lead">Home Floorplan is local-first for floorplans, preferences, history, and insights. Optional AI features may send selected home context only when you configure and use them.</p>
             </div>
             <div class="panel" aria-hidden="true">
                 <div class="floorplan"></div>
@@ -36,7 +36,7 @@
                 <div class="marker three">AI</div>
                 <div class="status-card">
                     <strong>Local-first app data</strong>
-                    <span>Floorplans, preferences, and home context are used to power the experience.</span>
+                    <span>HomeKit context powers the experience after you grant Apple Home permission.</span>
                 </div>
             </div>
         </section>
@@ -44,88 +44,94 @@
         <div class="content">
             <section class="section">
                 <h2>Overview</h2>
-                <p>Home Floorplan helps you view, organize, and control compatible Apple Home/HomeKit accessories using a visual floorplan and smart home tools.</p>
+                <p>Home Floorplan helps you view, organize, and control compatible Apple Home/HomeKit accessories using a visual floorplan, automation tools, environmental context, and optional AI-assisted features.</p>
+                <p>This policy explains what data the app can access, what stays on your device, and what may be sent to external providers only when you choose to enable those features.</p>
                 <p>Effective date: <strong>[DATE]</strong></p>
             </section>
 
             <section class="section">
-                <h2>Data the app may access</h2>
-                <p>Depending on the permissions and features you choose to use, Home Floorplan may access:</p>
+                <h2>Summary</h2>
                 <ul>
-                    <li>Apple Home/HomeKit data, including homes, rooms, accessories, services, scenes, automations, accessory states, and sensor values.</li>
-                    <li>Floorplan data you create or import, including placed markers and room/accessory layout information.</li>
-                    <li>Environmental sensor readings from compatible HomeKit accessories, such as temperature, humidity, air quality, occupancy, light, or similar sensor data.</li>
-                    <li>Location information when you grant location permission, used for home context, weather/context features, map selection, and geofence setup where available.</li>
-                    <li>Photos or files you select when importing a floorplan image.</li>
-                    <li>Camera or RoomPlan data when you choose to scan or create a floorplan.</li>
-                    <li>Microphone and speech input only when you choose to use voice features.</li>
-                    <li>Notification preferences and local app settings.</li>
-                    <li>Optional AI prompts and related home context when you choose to configure and use an AI provider.</li>
+                    <li>Home Floorplan requires Apple Home/HomeKit permission for core smart home functionality.</li>
+                    <li>Floorplans, markers, preferences, local history, insights, and app settings are stored locally on your device.</li>
+                    <li>AI features are optional. If enabled, selected home context and prompts may be sent to the AI provider you configure.</li>
+                    <li>Home Floorplan does not sell your data.</li>
+                    <li>Home Floorplan does not use advertising tracking.</li>
+                    <li>Home Floorplan does not bundle your personal AI API keys.</li>
                 </ul>
             </section>
 
             <section class="section">
-                <h2>How data is used</h2>
-                <div class="grid">
-                    <div class="mini-card">
-                        <strong>Home control</strong>
-                        <p>Display and control HomeKit accessories, rooms, scenes, and automations.</p>
-                    </div>
-                    <div class="mini-card">
-                        <strong>Floorplans</strong>
-                        <p>Save your floorplan, markers, accessory positions, and local preferences.</p>
-                    </div>
-                    <div class="mini-card">
-                        <strong>Insights</strong>
-                        <p>Generate local summaries, environmental context, and optional AI-assisted suggestions.</p>
-                    </div>
-                </div>
+                <h2>Data the app may access</h2>
+                <h3>Apple Home and HomeKit data</h3>
+                <p>After you grant Apple Home permission, the app may read and use home names, room names, accessory names, accessory categories, services, capabilities, states, scenes, automations, triggers, conditions, actions, and compatible HomeKit sensor values.</p>
+                <p>This data is used to display your home, control accessories, create or edit scenes and automations, build dashboards, and generate local context.</p>
+
+                <h3>Floorplan and user-created content</h3>
+                <p>The app may store floorplan images or scans you import or create, marker positions, accessory placements, room mapping information, automation drafts, scene drafts, rule drafts, notes, settings, preferences, and chat or assistant prompts you enter when using AI features.</p>
+
+                <h3>Environmental and activity data</h3>
+                <p>The app may store local sensor reading history, accessory activity events, automation or action effectiveness events, environmental insights, and habit or routine patterns inferred from local HomeKit context.</p>
+
+                <h3>Location data</h3>
+                <p>If you grant location permission, Home Floorplan may use your location for home location context, weather and environmental context, map-based home/location setup, and geofence setup where available.</p>
+                <p>The first release is designed to use When In Use location permission and does not require Always location permission.</p>
+
+                <h3>Photos, camera, microphone, and speech</h3>
+                <p>Home Floorplan may request access to photos or files when you import a floorplan image, camera or room scanning features when you create a floorplan from a scan, and microphone or speech recognition when you choose to use voice input features.</p>
+
+                <h3>Notifications</h3>
+                <p>If you enable notifications, the app may store notification preferences and use local context to send relevant alerts or reminders.</p>
             </section>
 
             <section class="section">
                 <h2>Local storage</h2>
-                <p>Home Floorplan stores app data locally on your device, including floorplans, preferences, selected settings, activity history, and generated insights.</p>
-                <p>Deleting the app from the device may delete locally stored app data. Installing an update over an existing installation normally keeps local app data, subject to iOS behavior.</p>
+                <p>Home Floorplan is local-first. App data such as floorplans, markers, preferences, local history, generated insights, and settings is stored on your device unless a feature explicitly sends selected context to an external service.</p>
+                <p>Deleting the app from your device may delete locally stored Home Floorplan data. Installing an update over an existing installation normally keeps local app data, subject to iOS behavior.</p>
+                <p>HomeKit homes, accessories, scenes, and automations are managed by Apple Home/HomeKit. Removing local Home Floorplan data does not necessarily remove HomeKit data from Apple Home.</p>
             </section>
 
             <section class="section">
-                <h2>AI providers</h2>
-                <p>AI features are optional. If you configure an AI provider or API key, Home Floorplan may send selected prompts, home context, room names, accessory information, sensor summaries, and relevant action context to that provider to generate responses or suggestions.</p>
-                <p>Do not enable AI features if you do not want this information processed by the selected provider.</p>
-                <p>Home Floorplan does not bundle your personal AI API key in the app. If API keys are used, they should be provided by you and stored securely on device.</p>
+                <h2>Optional AI features</h2>
+                <p>AI features are optional and require user configuration.</p>
+                <p>If you enable or configure an AI provider, Home Floorplan may send selected information to that provider to generate responses, explanations, summaries, or action suggestions. This may include your prompt or voice-transcribed request, relevant room names, relevant accessory names, types, states and capabilities, relevant HomeKit scene or automation context, relevant sensor summaries or environmental readings, and relevant local insight, habit, or action-effectiveness context.</p>
+                <p>AI providers may process this information according to their own terms and privacy policies. Do not enable AI features if you do not want selected home context or prompts processed by the configured provider.</p>
+                <p>Home Floorplan does not bundle your personal AI API key in the app. If the app supports user-provided API keys, they are intended to be entered by you and stored securely on the device, such as in Keychain.</p>
             </section>
 
             <section class="section">
-                <h2>Apple Home and HomeKit</h2>
-                <p>HomeKit access is required for core smart home functionality. Home Floorplan reads HomeKit data only after you grant permission through iOS.</p>
-                <p>HomeKit automations created or edited by the app are stored and executed through Apple Home/HomeKit.</p>
-            </section>
-
-            <section class="section">
-                <h2>Permissions</h2>
-                <h3>Location</h3>
-                <p>If you grant location permission, Home Floorplan may use your current location for home context, weather/context features, map selection, or geofence setup. The app does not require Always location permission for the first release unless explicitly shown by iOS in a future version.</p>
-                <h3>Photos, camera, microphone, and speech</h3>
-                <p>Home Floorplan accesses photos, files, camera, microphone, or speech recognition only when you use features that require them, such as importing a floorplan, scanning a room, or using voice input.</p>
-            </section>
-
-            <section class="section">
-                <h2>Tracking and data sharing</h2>
-                <p>Home Floorplan does not use advertising tracking in the current release.</p>
+                <h2>Data sharing</h2>
                 <p>Home Floorplan does not sell your data.</p>
-                <p>Data may be processed by Apple services required for HomeKit, iCloud/device platform functionality, TestFlight, App Store distribution, or crash reporting; optional AI providers you configure and choose to use; and other service providers only if added and disclosed in a future version.</p>
+                <p>Data may be processed by Apple services required for HomeKit, platform functionality, TestFlight, App Store distribution, iOS diagnostics, or crash reporting; AI providers you choose to configure and use; and other service providers only if added in a future version and disclosed before release.</p>
+                <p>Home Floorplan does not use advertising SDKs or advertising tracking in the current release.</p>
+            </section>
+
+            <section class="section">
+                <h2>Tracking</h2>
+                <p>Home Floorplan does not track you across apps or websites owned by other companies for advertising or data broker purposes.</p>
+                <p>If tracking, advertising SDKs, or third-party analytics are added in the future, this policy and the App Store privacy disclosures must be updated before release.</p>
             </section>
 
             <section class="section">
                 <h2>Retention and deletion</h2>
-                <p>Local app data remains on your device until you delete it in the app, until the app prunes older records where applicable, or until you delete the app.</p>
-                <p>To remove app data, delete data from the app where available or delete the app from your device. HomeKit accessories, scenes, and automations managed by Apple Home may need to be removed from Apple Home separately.</p>
+                <p>Local app data remains on your device until you delete it using app features where available, until the app prunes older records where retention behavior is implemented, or until you delete the app from your device.</p>
+                <p>To remove Home Floorplan local data, delete data from the app where available or delete the app from your device. HomeKit data managed by Apple Home may need to be removed separately in Apple Home.</p>
+            </section>
+
+            <section class="section">
+                <h2>Children</h2>
+                <p>Home Floorplan is not designed to knowingly collect personal information from children.</p>
+            </section>
+
+            <section class="section">
+                <h2>Changes to this policy</h2>
+                <p>This policy may be updated as Home Floorplan changes. The effective date will be updated when material changes are made.</p>
             </section>
 
             <section class="section">
                 <h2>Contact</h2>
                 <p>For privacy questions, contact: <a href="mailto:YOUR_SUPPORT_EMAIL@example.com">YOUR_SUPPORT_EMAIL@example.com</a></p>
-                <p class="note">Before publishing, replace the effective date and support email with real values.</p>
+                <p class="note">Before publishing, replace the effective date, support email, copyright year, and owner with real values.</p>
             </section>
         </div>
 
