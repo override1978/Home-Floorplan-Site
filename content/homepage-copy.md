@@ -16,11 +16,11 @@ Social description: A calm, spatial view of your Apple Home.
 
 ### Italiano
 
-Title: Home Floorplan — Guarda la tua casa in modo diverso
+Title: Home Floorplan - Guarda la tua casa in modo diverso
 
-Description: Home Floorplan è un'app per iPad pensata per Apple Home: trasforma la planimetria in una vista spaziale e calma di stanze, accessori, comfort, sicurezza e abitudini.
+Description: Home Floorplan è un'app da utilizzare su iPad per gestire la tua casa. Crea la planimetria di casa, definisci le stanze con i propri accessori, monitora lo stato di comfort ambientale e sicurezza e rileva le abitudini.
 
-Social description: Una vista spaziale e calma della tua casa Apple Home.
+Social description: Una vista spaziale dei tuoi accessori in una vista unificata con l'ambiente e la sicurezza.
 
 ## Navigation
 
@@ -48,11 +48,11 @@ Body: Home Floorplan brings rooms, accessories and sensor states into one calm s
 
 ### Italiano
 
-Eyebrow: Pensata per iPad · Costruita per Apple Home
+Eyebrow: Pensata per iPad · Costruita per HomeKit
 
 Headline: Guarda la tua casa in modo diverso.
 
-Body: Home Floorplan porta stanze, accessori e sensori in un'unica vista spaziale e calma del luogo in cui vivi.
+Body: Home Floorplan mostra stanze, accessori e sensori in un'unica vista spaziale.
 
 ## Manifesto
 
@@ -64,9 +64,9 @@ Home Floorplan makes Apple Home feel like the place it controls.
 
 ### Italiano
 
-La tua casa non è una lista di dispositivi. È fatta di stanze, movimento, comfort, routine e piccoli segnali che raccontano cosa sta succedendo.
+La tua casa è suddivisa in stanze e in ognuna di esse, tramite i dispositivi, si rilevano movimenti, comfort ambientale, routine e segnali che raccontano cosa sta succedendo.
 
-Home Floorplan fa sentire Apple Home come il luogo che controlla.
+Monitora e visualizzali tramite Home Floorplan.
 
 ## Chapter 01
 
@@ -88,7 +88,7 @@ Eyebrow: Capitolo 01
 
 Headline: Orientati stanza per stanza.
 
-Body: La planimetria ti riporta subito agli ambienti di casa. Luci, sensori e accessori sono nel punto in cui li usi ogni giorno.
+Body: Disegnando la planimetria di ciascun piano puoi visualizzare luci, sensori e accessori di ciascuna stanza.
 
 ## Chapter 02
 
@@ -110,7 +110,7 @@ Eyebrow: Capitolo 02
 
 Headline: Tieni d'occhio il comfort di ogni stanza.
 
-Body: Temperatura, umidità e qualità dell'aria sono più facili da capire quando le vedi direttamente sulla planimetria, nel contesto della casa.
+Body: Temperatura, umidità e qualità dell'aria di ogni stanza sono più facili da monitorare quando vedi il loro stato direttamente sulla planimetria.
 
 ## Chapter 03
 
@@ -132,7 +132,7 @@ Eyebrow: Capitolo 03
 
 Headline: Riconosci i pattern.
 
-Body: Abitudini e insight AI aiutano a scoprire routine, cambiamenti ricorrenti e opportunità di automazione con contesto, affidabilità e discrezione.
+Body: Abitudini e insight AI aiutano a individuare comportamenti e cambiamenti ricorrenti, proponendo eventuali automazioni.
 
 ## Chapter 04
 
@@ -154,7 +154,7 @@ Eyebrow: Capitolo 04
 
 Headline: Costruisci la casa in cui vivi.
 
-Body: Crea stanze, muri, porte, finestre e arredi direttamente su iPad. Poi posiziona ogni accessorio dove appartiene.
+Body: Crea stanze, muri, porte, finestre e arredi direttamente su iPad. Poi posiziona ogni accessorio in ciascuna stanza.
 
 ## Gallery
 
@@ -166,7 +166,7 @@ Headline: A dashboard that keeps its sense of place.
 
 ### Italiano
 
-Eyebrow: Pensata per iPad 11 pollici in orizzontale
+Eyebrow: Pensata per iPad in posizione orizzontale
 
 Headline: Una dashboard che non perde il senso dello spazio.
 
@@ -190,15 +190,15 @@ Headline: Una dashboard che non perde il senso dello spazio.
 
 1. Spatial First
 
-   La planimetria è il modello di navigazione. Le stanze danno a ogni accessorio e segnale un posto a cui appartenere.
+   La planimetria è il punto di partenza. Le stanze contengono i vari accessori nel punto esatto in cui sono inseriti.
 
 2. Discreet AI Insight
 
-   L'AI appare come contesto, pattern e suggerimenti utili, non come rumore o chatbot generico.
+   L'AI è discreta, di supporto e non invasiva.
 
 3. Built Apple Native
 
-   Progettata per iPad, Apple Home, Matter, privacy e il linguaggio visivo calmo che ci si aspetta in casa.
+   App nativa per Apple e progettata per iPad.
 
 ## CTA
 
@@ -214,9 +214,9 @@ URL: https://testflight.apple.com/join/fqDXYaDV
 
 ### Italiano
 
-Headline: Partecipa alla beta TestFlight.
+Headline: Partecipa alla beta su TestFlight.
 
-Body: Prova Home Floorplan su iPad oggi tramite TestFlight. La versione App Store arriverà dopo.
+Body: Prova Home Floorplan per iPad su TestFlight. La versione App Store arriverà prossimamente.
 
 Button: Apri TestFlight
 
@@ -254,4 +254,4 @@ Links:
 - Beta TestFlight
 - English
 
-Bottom line: Progettata per iPad e Apple Home.
+Bottom line: Progettata per iPad e Apple HomeKit.
