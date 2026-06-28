@@ -48,7 +48,7 @@ nav { display: flex; align-items: center; gap: 4px; }
 nav a { padding: 10px 13px; border-radius: 999px; color: rgba(21,21,23,.62); font-size: 14px; font-weight: 680; }
 nav a:hover { color: var(--ink); background: rgba(0,0,0,.045); }
 .language-switch { display: inline-flex; flex-shrink: 0; align-items: center; gap: 3px; margin-left: 8px; padding: 4px; border: 1px solid rgba(0,0,0,.06); border-radius: 999px; background: rgba(255,255,255,.72); box-shadow: 0 8px 22px rgba(0,0,0,.045); font-size: 12px; font-weight: 820; }
-.language-switch a, .language-switch strong { display: inline-flex; align-items: center; justify-content: center; min-width: 30px; height: 28px; padding: 0 8px; border-radius: 999px; }
+.language-switch a, .language-switch strong { box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; align-self: center; min-width: 30px; height: 28px; padding: 0 8px; border-radius: 999px; font-size: 12px; font-weight: 820; line-height: 1; }
 .language-switch a { color: rgba(21,21,23,.58); }
 .language-switch a:hover { color: var(--ink); background: rgba(255,255,255,.72); }
 .language-switch strong { color: var(--ink); background: #fff; box-shadow: 0 6px 18px rgba(0,0,0,.065); }
@@ -116,7 +116,7 @@ footer { width: min(var(--max), calc(100% - 40px)); margin: 0 auto 40px; display
   nav { flex-shrink: 0; }
   nav > a { display: none !important; }
   .language-switch { margin-left: 0; }
-  .language-switch a, .language-switch strong { min-width: 34px; height: 28px; padding: 0 9px; }
+  .language-switch a, .language-switch strong { min-width: 34px; height: 28px; padding: 0 9px; line-height: 1; }
   .hero { min-height: auto; padding: 94px 16px 58px; gap: 30px; }
   .hero-mark { width: 76px; height: 76px; border-radius: 19px; }
   h1 { font-size: clamp(48px, 15vw, 76px); letter-spacing: -.064em; }
