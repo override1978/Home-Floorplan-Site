@@ -130,11 +130,11 @@ Body: Habits and AI insights help you spot recurring behaviors and changes, with
 
 Word: Impara
 
-Headline: Impara come vivete davvero la casa.
+Headline: Impara come vive davvero la casa.
 
 Eyebrow: Capitolo 03
 
-Headline: Impara come vivete davvero la casa.
+Headline: Impara come vive davvero la casa.
 
 Body: Giorno dopo giorno Home Floorplan nota le cose che fate sempre alla stessa ora, o nello stesso modo, e ve le mostra. Quando un'abitudine è abbastanza chiara, propone di trasformarla in automazione. Tutto resta sul tuo iPad — niente sale nel cloud. .
 
