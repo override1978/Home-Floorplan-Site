@@ -20,7 +20,7 @@ Title: Home Floorplan - Guarda la tua casa in modo diverso
 
 Description: Home Floorplan è un'app da utilizzare su iPad per gestire la tua casa. Crea la planimetria, definisci le stanze con i propri accessori, monitora lo stato di comfort ambientale e sicurezza e rileva le abitudini.
 
-Social description: Una vista spaziale dei tuoi accessori in una vista unificata con l'ambiente e la sicurezza.
+Social description: Le tue stanze, i tuoi accessori e i tuoi sensori su un'unica vista unificata. Quella di casa tua, disegnata da te.
 
 ## Navigation
 
@@ -86,9 +86,9 @@ Word: Vedi
 
 Eyebrow: Capitolo 01
 
-Headline: Orientati stanza per stanza.
+Headline: Ogni cosa dove ti aspetti di trovarla
 
-Body: Disegnando la planimetria di ciascun piano puoi visualizzare luci, sensori e accessori di ciascuna stanza.
+Body: Disegni la planimetria di ogni piano e ritrovi luci, sensori e accessori esattamente dove stanno nella realtà. Niente liste da scorrere: tocchi la stanza e controlli quello che c'è dentro..
 
 ## Chapter 02
 
@@ -108,9 +108,9 @@ Word: Senti
 
 Eyebrow: Capitolo 02
 
-Headline: Tieni d'occhio il comfort di ogni stanza.
+Headline: Capisci com'è l'aria, prima ancora di entrare..
 
-Body: Temperatura, umidità e qualità dell'aria di ogni stanza sono più facili da monitorare quando vedi il loro stato direttamente sulla planimetria.
+Body: Temperatura, umidità e qualità dell'aria di ogni stanza, lette a colpo d'occhio sulla planimetria. Vedi subito se la camera è troppo secca o se in cucina conviene aprire una finestra — senza aprire dieci schermate.
 
 ## Chapter 03
 
@@ -126,13 +126,13 @@ Body: Habits and AI insights help you spot recurring behaviors and changes, with
 
 ### Italiano
 
-Word: Impara
+Word: Impara come vivete davvero la casa.
 
 Eyebrow: Capitolo 03
 
 Headline: Riconosci i pattern.
 
-Body: Abitudini e insight AI aiutano a individuare comportamenti e cambiamenti ricorrenti, proponendo eventuali automazioni.
+Body: Giorno dopo giorno Home Floorplan nota le cose che fate sempre alla stessa ora, o nello stesso modo, e ve le mostra. Quando un'abitudine è abbastanza chiara, propone di trasformarla in automazione. Tutto resta sul tuo iPad — niente sale nel cloud.
 
 ## Chapter 04
 
@@ -152,9 +152,9 @@ Word: Crea
 
 Eyebrow: Capitolo 04
 
-Headline: Costruisci la casa in cui vivi.
+Headline: Falla vivere appesa al muro.
 
-Body: Crea stanze, muri, porte, finestre e arredi direttamente su iPad. Poi posiziona ogni accessorio in ciascuna stanza.
+Body: Un iPad fisso in corridoio o in cucina, sempre acceso, che mostra la casa invece di una griglia di icone. Home Floorplan è nata per stare lì.
 
 ## Gallery
 
@@ -188,17 +188,17 @@ Headline: Una dashboard che non perde il senso dello spazio.
 
 ### Italiano
 
-1. Spatial First
+1. Prima lo spazio
 
-   La planimetria è il punto di partenza. Le stanze contengono i vari accessori nel punto esatto in cui sono inseriti.
+   La pianta è il punto di partenza. Ogni accessorio sta dove sta per davvero, non in fondo a un elenco.
 
-2. Discreet AI Insight
+2. Un'AI che non disturba
 
-   L'AI è discreta, di supporto e non invasiva.
+   Lavora in silenzio e parla solo quando ha qualcosa di utile da dirti.
 
-3. Built Apple Native
+3. Nativa Apple
 
-   App nativa per Apple e progettata per iPad.
+   Scritta da zero per iPad, con gli strumenti di Apple. Veloce, e a casa sua.
 
 ## CTA
 
@@ -214,13 +214,15 @@ URL: https://testflight.apple.com/join/fqDXYaDV
 
 ### Italiano
 
-Headline: Partecipa alla beta su TestFlight.
+Headline: Provala adesso. È gratis.
 
-Body: Prova Home Floorplan per iPad su TestFlight. La versione App Store arriverà prossimamente.
+Body: Home Floorplan è in beta su TestFlight. Funziona su qualsiasi iPad — non serve il LiDAR — e la versione su App Store arriva presto, gratuita anche quella..
 
 Button: Apri TestFlight
 
 URL: https://testflight.apple.com/join/fqDXYaDV
+
+Word: L'ho costruita prima di tutto per casa mia. Ora è aperta anche alla tua.
 
 ## Footer
 
