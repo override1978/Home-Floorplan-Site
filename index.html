@@ -29,8 +29,7 @@
     @media (max-width: 1024px) {
       .site-header nav > a { display: none !important; }
       .site-header .language-switch { display: inline-flex !important; flex-shrink: 0 !important; align-items: center !important; gap: 16px !important; margin-left: 0 !important; padding: 0 10px !important; border: 0 !important; background: transparent !important; box-shadow: none !important; color: rgba(21,21,23,.54) !important; font-size: 17px !important; font-weight: 780 !important; line-height: 1 !important; }
-      .site-header .language-switch a,
-      .site-header .language-switch strong { display: inline-flex !important; align-items: center !important; height: 32px !important; font: inherit !important; line-height: 1 !important; }
+      .site-header .language-switch a { display: inline-flex !important; align-items: center !important; justify-content: center !important; width: 32px !important; height: 32px !important; font: inherit !important; line-height: 1 !important; }
     }
   </style>
 </head>
@@ -46,7 +45,7 @@
     <nav>
       <a href="#chapters">Experience</a>
       <a href="privacy.html">Privacy</a>
-      <span class="language-switch" aria-label="Language"><strong>EN</strong><a href="it/index.html">IT</a></span>
+      <span class="language-switch" aria-label="Language"><a class="is-active" href="index.html" aria-current="page">EN</a><a href="it/index.html">IT</a></span>
     </nav>
   </header>
 

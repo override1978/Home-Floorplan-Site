@@ -47,11 +47,11 @@ img { max-width: 100%; }
 nav { display: flex; align-items: center; gap: 4px; }
 nav a { padding: 10px 13px; border-radius: 999px; color: rgba(21,21,23,.62); font-size: 14px; font-weight: 680; }
 nav a:hover { color: var(--ink); background: rgba(0,0,0,.045); }
-.language-switch { display: inline-flex; flex-shrink: 0; align-items: center; gap: 12px; margin-left: 10px; padding: 0 8px; color: rgba(21,21,23,.54); font-size: 14px; font-weight: 780; line-height: 1; }
-.language-switch a, .language-switch strong { display: inline-flex; align-items: center; justify-content: center; height: 32px; padding: 0; font: inherit; line-height: 1; }
+.language-switch { display: inline-grid; grid-template-columns: repeat(2, 28px); flex-shrink: 0; align-items: center; gap: 12px; margin-left: 10px; padding: 0 8px; color: rgba(21,21,23,.54); font-size: 14px; font-weight: 780; line-height: 1; }
+.language-switch a { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 32px; padding: 0; font: inherit; line-height: 1; }
 .language-switch a { color: rgba(21,21,23,.54); }
 .language-switch a:hover { color: var(--ink); }
-.language-switch strong { color: var(--ink); }
+.language-switch a.is-active { color: var(--ink); }
 .hero {
   min-height: 100svh;
   padding: 124px 24px 76px;
@@ -115,8 +115,8 @@ footer { width: min(var(--max), calc(100% - 40px)); margin: 0 auto 40px; display
   .brand span { display: none; }
   nav { flex-shrink: 0; }
   nav > a { display: none !important; }
-  .language-switch { gap: 16px; margin-left: 0; padding: 0 10px; font-size: 17px; font-weight: 780; }
-  .language-switch a, .language-switch strong { height: 32px; line-height: 1; }
+  .language-switch { grid-template-columns: repeat(2, 32px); gap: 16px; margin-left: 0; padding: 0 10px; font-size: 17px; font-weight: 780; }
+  .language-switch a { width: 32px; height: 32px; line-height: 1; }
   .hero { min-height: auto; padding: 94px 16px 58px; gap: 30px; }
   .hero-mark { width: 76px; height: 76px; border-radius: 19px; }
   h1 { font-size: clamp(48px, 15vw, 76px); letter-spacing: -.064em; }
