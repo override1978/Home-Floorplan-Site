@@ -86,9 +86,9 @@ Word: Vedi
 
 Eyebrow: Capitolo 01
 
-Headline: Parti dalle stanze che conosci.
+Headline: Orientati stanza per stanza.
 
-Body: Apri la planimetria e capisci la casa a colpo d'occhio. Luci, sensori, scene e accessori vivono dove sono davvero.
+Body: La planimetria ti riporta subito agli ambienti di casa. Luci, sensori, scene e accessori sono nel punto in cui li usi ogni giorno.
 
 ## Chapter 02
 
