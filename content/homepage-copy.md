@@ -108,9 +108,9 @@ Word: Senti
 
 Eyebrow: Capitolo 02
 
-Headline: Leggi il comfort stanza per stanza.
+Headline: Tieni d'occhio il comfort di ogni stanza.
 
-Body: Temperatura, umidità, qualità dell'aria e Home Health smettono di essere numeri isolati. Diventano segnali spaziali da confrontare in tutta la casa.
+Body: Temperatura, umidità e qualità dell'aria sono più facili da capire quando le vedi direttamente sulla planimetria, nel contesto della casa.
 
 ## Chapter 03
 
