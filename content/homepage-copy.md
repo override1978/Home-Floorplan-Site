@@ -10,9 +10,9 @@ This document mirrors the current live HTML copy. Edit this file first when revi
 
 Title: Home Floorplan - See your home differently
 
-Description: Home Floorplan is an iPad app for managing your home. Create your floorplan, define rooms with their accessories, monitor comfort and security, and understand daily habits.
+Description: Home Floorplan is an iPad app for managing your home. Create the floorplan, define rooms and accessories, monitor comfort, safety, and daily habits.
 
-Social description: A spatial view of your accessories, environment, and security in one unified place.
+Social description: Your rooms, accessories, and sensors in one unified view. Your home, drawn by you.
 
 ### Italiano
 
@@ -58,9 +58,11 @@ Body: Home Floorplan mostra stanze, accessori e sensori in un'unica vista spazia
 
 ### English
 
-Your home is made of rooms. In each one, devices detect movement, comfort conditions, routines, and the small signals that show what is happening.
+A home never stands still.
 
-Monitor and see them with Home Floorplan.
+People come and go, the temperature rises, light shifts through the day, and small habits repeat.
+
+Home Floorplan puts all of it on your floorplan, so you can see it happening where it belongs, not on just another screen.
 
 ### Italiano
 
@@ -78,9 +80,9 @@ Word: See
 
 Eyebrow: Chapter 01
 
-Headline: Find your way room by room.
+Headline: Everything where you expect it.
 
-Body: Draw the floorplan for each floor and see the lights, sensors, and accessories that belong to every room.
+Body: Draw the floorplan for each floor and find lights, sensors, and accessories exactly where they are in real life. No lists to scroll through: tap a room and control what's inside.
 
 ### Italiano
 
@@ -100,9 +102,9 @@ Word: Feel
 
 Eyebrow: Chapter 02
 
-Headline: Keep an eye on comfort in every room.
+Headline: Understand the air before you even walk in.
 
-Body: Temperature, humidity, and air quality are easier to monitor when you can see their status directly on the floorplan.
+Body: Temperature, humidity, and air quality for each room, readable at a glance on the floorplan. You can see right away if the bedroom is too dry or if the kitchen needs a window open, without jumping through ten screens.
 
 ### Italiano
 
@@ -122,9 +124,9 @@ Word: Learn
 
 Eyebrow: Chapter 03
 
-Headline: Notice the patterns.
+Headline: Learn how your home really lives.
 
-Body: Habits and AI insights help you spot recurring behaviors and changes, with suggestions for possible automations.
+Body: Day by day, Home Floorplan notices the things you do at the same time, or in the same way, and shows them to you. When a habit is clear enough, it suggests turning it into an automation. Everything stays on your iPad, nothing goes to the cloud.
 
 ### Italiano
 
@@ -142,13 +144,13 @@ Body: Giorno dopo giorno Home Floorplan nota le cose che fate sempre alla stessa
 
 ### English
 
-Word: Build
+Word: Create
 
 Eyebrow: Chapter 04
 
-Headline: Build the home you live in.
+Headline: Make it live on the wall.
 
-Body: Create rooms, walls, doors, windows, and furniture directly on iPad. Then place each accessory in its room.
+Body: A fixed iPad in the hallway or kitchen, always on, showing your home instead of a grid of icons. Home Floorplan was made to live there.
 
 ### Italiano
 
@@ -178,17 +180,17 @@ Headline: Una dashboard che non perde il senso dello spazio.
 
 ### English
 
-1. Spatial First
+1. Space comes first
 
-   The floorplan is the starting point. Rooms hold each accessory exactly where it belongs.
+   The floorplan is where everything starts. Every accessory sits where it actually is, not buried at the bottom of a list.
 
-2. Discreet AI Insight
+2. AI that stays out of the way
 
-   AI stays discreet, helpful, and out of the way.
+   It works quietly and speaks up only when it has something useful to say.
 
-3. Built Apple Native
+3. Made for Apple
 
-   A native Apple app designed for iPad.
+   Built from scratch for iPad with Apple tools. Fast, and right at home.
 
 ### Italiano
 
@@ -208,13 +210,20 @@ Headline: Una dashboard che non perde il senso dello spazio.
 
 ### English
 
-Headline: Join the beta on TestFlight.
+Headline: Try it now. It's free.
 
-Body: Try Home Floorplan for iPad on TestFlight. The App Store version is coming soon.
+Body: Home Floorplan is in beta on TestFlight.
+
+Points:
+- Works on any iPad
+- LiDAR not required
+- Coming soon to the App Store, free there too
 
 Button: Open TestFlight
 
 URL: https://testflight.apple.com/join/fqDXYaDV
+
+Word: I built it first for my own home. Now it's open to yours.
 
 ### Italiano
 
