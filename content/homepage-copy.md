@@ -18,7 +18,7 @@ Social description: A calm, spatial view of your Apple Home.
 
 Title: Home Floorplan - Guarda la tua casa in modo diverso
 
-Description: Home Floorplan è un'app da utilizzare su iPad per gestire la tua casa. Crea la planimetria di casa, definisci le stanze con i propri accessori, monitora lo stato di comfort ambientale e sicurezza e rileva le abitudini.
+Description: Home Floorplan è un'app da utilizzare su iPad per gestire la tua casa. Crea la planimetria, definisci le stanze con i propri accessori, monitora lo stato di comfort ambientale e sicurezza e rileva le abitudini.
 
 Social description: Una vista spaziale dei tuoi accessori in una vista unificata con l'ambiente e la sicurezza.
 
