@@ -116,7 +116,12 @@ Scritta da zero per iPad, con gli strumenti di Apple. Veloce, e a casa sua.
 
 Headline: Provala adesso. È gratis.
 
-Body: Home Floorplan è in beta su TestFlight. Funziona su qualsiasi iPad — non serve il LiDAR — e la versione su App Store arriva presto, gratuita anche quella..
+Body: Home Floorplan è in beta su TestFlight.
+
+Points:
+- Funziona su qualsiasi iPad
+- Non serve il LiDAR
+- Arriverà presto su App Store, gratis anche lì
 
 Button: Apri TestFlight
 
