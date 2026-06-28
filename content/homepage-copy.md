@@ -132,9 +132,9 @@ Headline: Impara come vivete davvero la casa.
 
 Eyebrow: Capitolo 03
 
-Headline: Riconosci i pattern.
+Headline: Impara come vivete davvero la casa.
 
-Body: Giorno dopo giorno Home Floorplan nota le cose che fate sempre alla stessa ora, o nello stesso modo, e ve le mostra. Quando un'abitudine è abbastanza chiara, propone di trasformarla in automazione. Tutto resta sul tuo iPad — niente sale nel cloud.
+Body: Giorno dopo giorno Home Floorplan nota le cose che fate sempre alla stessa ora, o nello stesso modo, e ve le mostra. Quando un'abitudine è abbastanza chiara, propone di trasformarla in automazione. Tutto resta sul tuo iPad — niente sale nel cloud. .
 
 ## Chapter 04
 
