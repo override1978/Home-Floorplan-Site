@@ -62,7 +62,9 @@ Alt immagine: Mappa ambientale
 
 ## Capitolo 03
 
-Word: Impara come vivete davvero la casa.
+Word: Impara
+
+Headline: Impara come vivete davvero la casa.
 
 Eyebrow: Capitolo 03
 

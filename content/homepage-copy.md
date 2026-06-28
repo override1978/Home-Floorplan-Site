@@ -126,7 +126,9 @@ Body: Habits and AI insights help you spot recurring behaviors and changes, with
 
 ### Italiano
 
-Word: Impara come vivete davvero la casa.
+Word: Impara
+
+Headline: Impara come vivete davvero la casa.
 
 Eyebrow: Capitolo 03
 
