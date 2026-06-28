@@ -25,6 +25,14 @@
   <link rel="icon" href="../assets/app-icon.webp" />
   <link rel="shortcut icon" href="../assets/app-icon.webp" />
   <link rel="stylesheet" href="../styles.css" />
+  <style>
+    @media (max-width: 820px) {
+      .site-header nav > a { display: none !important; }
+      .site-header .language-switch { display: inline-flex !important; flex-shrink: 0 !important; }
+      .site-header .language-switch a,
+      .site-header .language-switch strong { display: inline-flex !important; }
+    }
+  </style>
 </head>
 <body>
   <div class="ambient ambient-one" aria-hidden="true"></div>
