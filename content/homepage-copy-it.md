@@ -32,7 +32,11 @@ Alt immagine hero: Home Floorplan per iPad, con una planimetria che mostra stanz
 
 ## Manifesto
 
-Una casa non sta mai ferma. C'è chi entra e chi esce, la temperatura che sale, la luce che gira con le ore, le piccole abitudini che si ripetono uguali. Home Floorplan mette tutto questo sulla tua planimetria, così lo vedi succedere dov'è — non in una schermata qualsiasi.
+Una casa non sta mai ferma.
+
+C'è chi entra e chi esce, la temperatura che sale, la luce che gira con le ore, le piccole abitudini che si ripetono uguali.
+
+Home Floorplan mette tutto questo sulla tua planimetria, così lo vedi succedere dov'è — non in una schermata qualsiasi.
 
 ## Capitolo 01
 
