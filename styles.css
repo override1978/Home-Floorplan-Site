@@ -47,7 +47,7 @@ img { max-width: 100%; }
 nav { display: flex; align-items: center; gap: 4px; }
 nav a { padding: 10px 13px; border-radius: 999px; color: rgba(21,21,23,.62); font-size: 14px; font-weight: 680; }
 nav a:hover { color: var(--ink); background: rgba(0,0,0,.045); }
-.language-switch { display: inline-flex; align-items: center; gap: 3px; margin-left: 8px; padding: 4px; border: 1px solid rgba(0,0,0,.06); border-radius: 999px; background: rgba(255,255,255,.72); box-shadow: 0 8px 22px rgba(0,0,0,.045); font-size: 12px; font-weight: 820; }
+.language-switch { display: inline-flex; flex-shrink: 0; align-items: center; gap: 3px; margin-left: 8px; padding: 4px; border: 1px solid rgba(0,0,0,.06); border-radius: 999px; background: rgba(255,255,255,.72); box-shadow: 0 8px 22px rgba(0,0,0,.045); font-size: 12px; font-weight: 820; }
 .language-switch a, .language-switch strong { display: inline-flex; align-items: center; justify-content: center; min-width: 30px; height: 28px; padding: 0 8px; border-radius: 999px; }
 .language-switch a { color: rgba(21,21,23,.58); }
 .language-switch a:hover { color: var(--ink); background: rgba(255,255,255,.72); }
@@ -114,7 +114,7 @@ footer { width: min(var(--max), calc(100% - 40px)); margin: 0 auto 40px; display
   .site-header { top: 10px; width: calc(100% - 20px); height: 52px; }
   .brand span { display: none; }
   nav a { padding: 9px 9px; font-size: 13px; }
-  nav > a:nth-child(2) { display: none; }
+  nav > a { display: none; }
   .language-switch { margin-left: 2px; }
   .language-switch a, .language-switch strong { min-width: 28px; height: 26px; padding: 0 7px; }
   .hero { min-height: auto; padding: 94px 16px 58px; gap: 30px; }
