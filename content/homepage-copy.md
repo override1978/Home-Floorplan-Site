@@ -88,7 +88,7 @@ Eyebrow: Capitolo 01
 
 Headline: Orientati stanza per stanza.
 
-Body: La planimetria ti riporta subito agli ambienti di casa. Luci, sensori, scene e accessori sono nel punto in cui li usi ogni giorno.
+Body: La planimetria ti riporta subito agli ambienti di casa. Luci, sensori e accessori sono nel punto in cui li usi ogni giorno.
 
 ## Chapter 02
 
