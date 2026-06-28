@@ -8,11 +8,11 @@ This document mirrors the current live HTML copy. Edit this file first when revi
 
 ### English
 
-Title: Home Floorplan — See your home differently
+Title: Home Floorplan - See your home differently
 
-Description: Home Floorplan is an iPad-first app for Apple Home that turns your floorplan into a calm, spatial view of rooms, accessories, comfort, security and habits.
+Description: Home Floorplan is an iPad app for managing your home. Create your floorplan, define rooms with their accessories, monitor comfort and security, and understand daily habits.
 
-Social description: A calm, spatial view of your Apple Home.
+Social description: A spatial view of your accessories, environment, and security in one unified place.
 
 ### Italiano
 
@@ -40,11 +40,11 @@ Social description: Una vista spaziale dei tuoi accessori in una vista unificata
 
 ### English
 
-Eyebrow: Designed for iPad · Built for Apple Home
+Eyebrow: Designed for iPad · Built for HomeKit
 
 Headline: See your home differently.
 
-Body: Home Floorplan brings rooms, accessories and sensor states into one calm spatial view of the place you live.
+Body: Home Floorplan shows rooms, accessories, and sensors in one spatial view.
 
 ### Italiano
 
@@ -58,9 +58,9 @@ Body: Home Floorplan mostra stanze, accessori e sensori in un'unica vista spazia
 
 ### English
 
-Your home is not a list of devices. It is rooms, movement, comfort, routines and the small signals that tell you what is happening.
+Your home is made of rooms. In each one, devices detect movement, comfort conditions, routines, and the small signals that show what is happening.
 
-Home Floorplan makes Apple Home feel like the place it controls.
+Monitor and see them with Home Floorplan.
 
 ### Italiano
 
@@ -76,9 +76,9 @@ Word: See
 
 Eyebrow: Chapter 01
 
-Headline: Start with the rooms you know.
+Headline: Find your way room by room.
 
-Body: Open your floorplan and understand the house at a glance. Lights, sensors, scenes and accessories live where they actually are.
+Body: Draw the floorplan for each floor and see the lights, sensors, and accessories that belong to every room.
 
 ### Italiano
 
@@ -98,9 +98,9 @@ Word: Feel
 
 Eyebrow: Chapter 02
 
-Headline: Read comfort by room.
+Headline: Keep an eye on comfort in every room.
 
-Body: Temperature, humidity, air quality and Home Health stop being isolated numbers. They become spatial signals you can compare across the home.
+Body: Temperature, humidity, and air quality are easier to monitor when you can see their status directly on the floorplan.
 
 ### Italiano
 
@@ -122,7 +122,7 @@ Eyebrow: Chapter 03
 
 Headline: Notice the patterns.
 
-Body: Habits and AI insights help reveal routines, repeated changes and automation opportunities with context, confidence and restraint.
+Body: Habits and AI insights help you spot recurring behaviors and changes, with suggestions for possible automations.
 
 ### Italiano
 
@@ -144,7 +144,7 @@ Eyebrow: Chapter 04
 
 Headline: Build the home you live in.
 
-Body: Create rooms, walls, doors, windows and furniture directly on iPad. Then place every accessory where it belongs.
+Body: Create rooms, walls, doors, windows, and furniture directly on iPad. Then place each accessory in its room.
 
 ### Italiano
 
@@ -160,7 +160,7 @@ Body: Crea stanze, muri, porte, finestre e arredi direttamente su iPad. Poi posi
 
 ### English
 
-Eyebrow: Designed around iPad 11-inch landscape
+Eyebrow: Designed for iPad in landscape
 
 Headline: A dashboard that keeps its sense of place.
 
@@ -176,15 +176,15 @@ Headline: Una dashboard che non perde il senso dello spazio.
 
 1. Spatial First
 
-   The floorplan is the navigation model. Rooms give every accessory and signal a place to belong.
+   The floorplan is the starting point. Rooms hold each accessory exactly where it belongs.
 
 2. Discreet AI Insight
 
-   AI appears as context, patterns and useful suggestions, not as noise or a generic chatbot.
+   AI stays discreet, helpful, and out of the way.
 
 3. Built Apple Native
 
-   Designed for iPad, Apple Home, Matter, privacy and the calm visual language people expect at home.
+   A native Apple app designed for iPad.
 
 ### Italiano
 
@@ -204,9 +204,9 @@ Headline: Una dashboard che non perde il senso dello spazio.
 
 ### English
 
-Headline: Join the TestFlight beta.
+Headline: Join the beta on TestFlight.
 
-Body: Try Home Floorplan on iPad today through TestFlight. The App Store release is coming next.
+Body: Try Home Floorplan for iPad on TestFlight. The App Store version is coming soon.
 
 Button: Open TestFlight
 
@@ -238,7 +238,7 @@ Links:
 - TestFlight beta
 - Italiano
 
-Bottom line: Designed for iPad and Apple Home.
+Bottom line: Designed for iPad and HomeKit.
 
 ### Italiano
 
