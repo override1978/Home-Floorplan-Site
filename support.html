@@ -1,112 +1,74 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Support - Home Floorplan</title>
-    <meta name="description" content="Support page for Home Floorplan.">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — Home Floorplan</title>
+  <meta name="description" content="Support information for Home Floorplan." />
+  <meta name="theme-color" content="#fff7ef" />
+  <link rel="canonical" href="https://gethomefloorplan.app/support.html" />
+  <meta property="og:title" content="Support — Home Floorplan" />
+  <meta property="og:description" content="Support information for Home Floorplan." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gethomefloorplan.app/support.html" />
+  <meta property="og:image" content="https://gethomefloorplan.app/assets/app-icon.webp" />
+  <meta property="og:site_name" content="Home Floorplan" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" href="assets/app-icon.webp" />
+  <link rel="shortcut icon" href="assets/app-icon.webp" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <main class="page">
-        <nav class="nav" aria-label="Main navigation">
-            <a class="brand" href="support.html">
-                <span class="mark">HF</span>
-                <span>
-                    <span class="brand-title">Home Floorplan</span>
-                    <span class="brand-subtitle">Visual HomeKit control</span>
-                </span>
-            </a>
-            <div class="nav-links">
-                <a href="support.html" aria-current="page">Support</a>
-                <a href="privacy.html">Privacy</a>
-            </div>
-        </nav>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header" aria-label="Primary navigation">
+    <a class="brand" href="index.html" aria-label="Home Floorplan home">
+      <img src="assets/app-icon.webp" alt="" />
+      <span>Home Floorplan</span>
+    </a>
+    <nav>
+      <a href="index.html#chapters">Experience</a>
+      <a href="roadmap.html">Roadmap</a>
+      <a href="help.html">Help</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+  <main class="content-page">
+    <section class="page-hero" data-reveal>
+      <p class="eyebrow">Support</p>
+      <h1>Support for the beta.</h1>
+      <p>Home Floorplan is still evolving. These notes define the support areas that will be expanded as the beta opens.</p>
+    </section>
 
-        <section class="hero">
-            <div class="hero-copy">
-                <span class="eyebrow">Support</span>
-                <h1>Help for your visual smart home.</h1>
-                <p class="lead">Find setup notes, common fixes, and contact information for Home Floorplan.</p>
-                <div class="hero-actions">
-                    <a class="button primary" href="mailto:YOUR_SUPPORT_EMAIL@example.com">Contact support</a>
-                    <a class="button" href="privacy.html">Privacy policy</a>
-                </div>
-            </div>
-            <div class="panel" aria-hidden="true">
-                <div class="floorplan"></div>
-                <div class="marker one">1</div>
-                <div class="marker two">2</div>
-                <div class="marker three">3</div>
-                <div class="status-card">
-                    <strong>Setup checklist</strong>
-                    <span>Grant Home access, choose your Home, then place accessories on your floorplan.</span>
-                </div>
-            </div>
-        </section>
+    <section class="support-list" data-reveal>
+      <article id="getting-started"><h2>Getting Started</h2><p>Use an iPad in landscape, create or open a floorplan and start connecting rooms to your Apple Home context.</p></article>
+      <article id="floorplans"><h2>Floorplans</h2><p>The floorplan is the main navigation model. Rooms, accessories and state should be placed where they make spatial sense.</p></article>
+      <article id="environment"><h2>Environment</h2><p>Environment views are designed to make comfort and air quality readable by room rather than as disconnected sensor values.</p></article>
+      <article id="security"><h2>Security</h2><p>Security views use room context to make doors, windows and motion events easier to scan quickly.</p></article>
+      <article id="habits"><h2>Habits & AI</h2><p>Habits should explain patterns and opportunities without becoming a generic chatbot experience.</p></article>
+    </section>
 
-        <div class="content">
-            <section class="section">
-                <h2>Getting started</h2>
-                <div class="grid">
-                    <div class="mini-card">
-                        <strong>1. Grant Home access</strong>
-                        <p>Home Floorplan needs Apple Home/HomeKit permission to read and control compatible accessories.</p>
-                    </div>
-                    <div class="mini-card">
-                        <strong>2. Open your Home</strong>
-                        <p>Select your active Home, then review rooms, accessories, scenes, and automations.</p>
-                    </div>
-                    <div class="mini-card">
-                        <strong>3. Build a floorplan</strong>
-                        <p>Import or create a floorplan, then place markers for your accessories and rooms.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section">
-                <h2>Common questions</h2>
-                <h3>Why do I need HomeKit permission?</h3>
-                <p>The app uses Apple Home/HomeKit to display rooms, accessories, scenes, automations, and states. Without Home access, core smart home controls are unavailable.</p>
-
-                <h3>Why are some screens empty?</h3>
-                <p>Some features require compatible accessories or sensors. For example, environmental dashboards need compatible temperature, humidity, air quality, occupancy, or similar HomeKit sensors.</p>
-
-                <h3>Do HomeKit automations continue if the app is closed?</h3>
-                <p>Automations saved to Apple Home run through Apple Home/HomeKit. Live dashboards, local context, and AI suggestions are best tested while Home Floorplan is open.</p>
-
-                <h3>Why does a curtain or cover open in the wrong direction?</h3>
-                <p>Some window covering devices report open and closed positions differently. Open the accessory control panel and enable <strong>Reverse open/close</strong> for that accessory only.</p>
-
-                <h3>Are AI features required?</h3>
-                <p>No. AI features are optional. If no AI provider or API key is configured, HomeKit and floorplan features should continue to work.</p>
-            </section>
-
-            <section class="section">
-                <h2>Report a problem</h2>
-                <p>When contacting support, include:</p>
-                <ul>
-                    <li>Your device model and iPadOS/iOS version.</li>
-                    <li>The Home Floorplan app version and build number.</li>
-                    <li>What you expected to happen and what happened instead.</li>
-                    <li>Whether the same accessory behaves correctly in the Apple Home app.</li>
-                    <li>Screenshots or screen recordings when helpful.</li>
-                </ul>
-                <p><a class="button primary" href="mailto:YOUR_SUPPORT_EMAIL@example.com">Email support</a></p>
-                <p class="note">Before publishing, replace the support email with a real address that you can monitor.</p>
-            </section>
-
-            <section class="section">
-                <h2>App Store review information</h2>
-                <p>Home Floorplan requires a real or test Apple Home setup for full review. If compatible HomeKit accessories or sensors are unavailable, some views may show limited or empty states.</p>
-                <p>No account is required for the app. Optional AI features may require user-provided provider configuration.</p>
-            </section>
-        </div>
-
-        <footer class="footer">
-            <span>Copyright [YEAR] [OWNER]. All rights reserved.</span>
-            <span>Home Floorplan is not affiliated with Apple Inc.</span>
-        </footer>
-    </main>
+    <section class="contact-card" data-reveal>
+      <h2>Need direct help?</h2>
+      <p>Send a support request, beta feedback or bug report.</p>
+      <div class="join-actions"><a class="button primary" href="mailto:support@gethomefloorplan.app?subject=Home%20Floorplan%20Support">Email support</a><a class="button secondary" href="contact.html">Contact options</a></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/app-icon.webp" alt="" />
+      <div><strong>Home Floorplan</strong><span>See your home differently.</span></div>
+    </div>
+    <div class="footer-grid">
+      <div><h4>Home Floorplan</h4><a href="index.html">Home</a><a href="help.html">Help Center</a><a href="support.html">Support</a><a href="contact.html">Contact</a></div>
+      <div><h4>Updates</h4><a href="roadmap.html">Roadmap</a><a href="release-notes.html">Release Notes</a></div>
+      <div><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></div>
+      <div><h4>Beta</h4><a href="mailto:hello@gethomefloorplan.app?subject=Home%20Floorplan%20Beta">Join the beta</a><a href="mailto:hello@gethomefloorplan.app?subject=Home%20Floorplan%20Feedback">Send feedback</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Home Floorplan</span><span>Designed for iPad and Apple Home.</span></div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
