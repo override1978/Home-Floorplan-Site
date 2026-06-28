@@ -34,6 +34,8 @@ Alt immagine hero: Home Floorplan per iPad, con una planimetria che mostra stanz
 
 Una casa non sta mai ferma. C'è chi entra e chi esce, la temperatura che sale, la luce che gira con le ore, le piccole abitudini che si ripetono uguali. Home Floorplan mette tutto questo sulla tua planimetria, così lo vedi succedere dov'è — non in una schermata qualsiasi.
 
+Casa tua, come la conosci.
+
 ## Capitolo 01
 
 Word: Vedi
