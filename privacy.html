@@ -4,14 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Privacy Policy - Home Floorplan</title>
-  <meta name="description" content="Privacy Policy for Home Floorplan. Home data stays on your iPad first, with no advertising, no profiling and no Home Floorplan server collecting your home activity." />
+  <meta name="description" content="How Home Floorplan handles your data: on-device by design, no tracking, no ads." />
   <meta name="theme-color" content="#fff7ef" />
   <link rel="canonical" href="https://gethomefloorplan.app/privacy.html" />
   <link rel="alternate" hreflang="en" href="https://gethomefloorplan.app/privacy.html" />
   <link rel="alternate" hreflang="it" href="https://gethomefloorplan.app/it/privacy.html" />
   <link rel="alternate" hreflang="x-default" href="https://gethomefloorplan.app/privacy.html" />
   <meta property="og:title" content="Privacy Policy - Home Floorplan" />
-  <meta property="og:description" content="Home Floorplan is designed to keep your home data on your iPad first. No advertising, no profiling and no Home Floorplan server collecting your home activity." />
+  <meta property="og:description" content="How Home Floorplan handles your data: on-device by design, no tracking, no ads." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://gethomefloorplan.app/privacy.html" />
   <meta property="og:image" content="https://gethomefloorplan.app/assets/app-icon.webp" />
@@ -21,7 +21,7 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="icon" href="assets/app-icon.webp" />
   <link rel="shortcut icon" href="assets/app-icon.webp" />
-  <link rel="stylesheet" href="styles.css?v=atlas-20260629-privacy-1" />
+  <link rel="stylesheet" href="styles.css?v=atlas-20260629-privacy-2" />
 </head>
 <body>
   <div class="ambient ambient-one" aria-hidden="true"></div>
@@ -41,14 +41,24 @@
   <main class="content-page privacy-page">
     <section class="page-hero privacy-hero" data-reveal>
       <p class="eyebrow">Privacy Policy</p>
-      <h1>Your home data belongs to you.</h1>
+      <h1>Privacy Policy</h1>
       <p>Last updated: June 29, 2026. Home Floorplan is designed to keep the information that describes your home under your control, on your iPad first.</p>
     </section>
 
     <div class="policy-intro" data-reveal>
-      <p>Home Floorplan is built and maintained by <strong>Maurizio Cinti</strong>, an independent developer based in Italy. This policy explains what the app does with your data, and what it deliberately does not do.</p>
-      <p>The short version: I do not run a server that collects your home activity, I do not see your home data, and I do not use it for advertising or profiling.</p>
+      <p>Home Floorplan is built and maintained by <strong>Maurizio Cinti</strong>, an independent developer based in Italy. This policy explains, in plain terms, what the app does with your data and what it deliberately does not do.</p>
+      <p class="policy-callout"><strong>The short version:</strong> Home Floorplan keeps your home data on your device by design. I do not run a server that collects it, I do not see it, and I never use it for advertising or profiling.</p>
     </div>
+
+    <nav class="privacy-index" data-reveal aria-label="Privacy policy sections">
+      <a href="#responsible">Responsible</a>
+      <a href="#approach">Approach</a>
+      <a href="#handling">Data handling</a>
+      <a href="#notdo">What I don't do</a>
+      <a href="#retention">Retention</a>
+      <a href="#rights">Rights</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
     <section class="privacy-summary" data-reveal aria-label="Privacy summary">
       <article><span>01</span><h2>On-device first</h2><p>Habits, usage insights, environmental suggestions and your floorplan are processed on your iPad. They are not sent to me.</p></article>
@@ -57,32 +67,40 @@
     </section>
 
     <section class="policy-sheet" data-reveal>
-      <article class="policy-section">
+      <article class="policy-section" id="responsible">
         <p class="eyebrow orange">Controller</p>
         <h2>Who is responsible</h2>
-        <p>The data controller for GDPR purposes is Maurizio Cinti, independent developer based in Italy.</p>
+        <p>The data controller for GDPR purposes is <strong>Maurizio Cinti</strong>, independent developer based in Italy.</p>
         <p>For any privacy question, or to exercise a right described below, write to <a href="mailto:hello@gethomefloorplan.app?subject=Home%20Floorplan%20Privacy">hello@gethomefloorplan.app</a>. One person reads everything that comes in.</p>
       </article>
 
-      <article class="policy-section">
-        <p class="eyebrow orange">Apple Home</p>
-        <h2>HomeKit access</h2>
-        <p>With your permission, granted through the iPadOS system prompt, Home Floorplan reads information from Apple Home: home, room and accessory names, accessory placement, current accessory state and sensor readings such as temperature, humidity, air quality, light, motion and contact sensors.</p>
-        <p>The app can also send commands to your accessories when you control them from the floorplan. You can review or revoke this access at any time in <strong>Settings -> Privacy &amp; Security -> HomeKit</strong>.</p>
+      <article class="policy-section policy-list" id="approach">
+        <p class="eyebrow orange">Approach</p>
+        <h2>My approach to your data</h2>
+        <p>Home Floorplan reads the home you have already set up in Apple Home and helps you see and control it on a floorplan. To do that well, it needs access to information about rooms, accessories, sensors and states. That information is used to make the app work for you, not to build a profile about you.</p>
+        <ul>
+          <li><strong>On-device first.</strong> Habits, usage insights and environmental suggestions are processed on your iPad.</li>
+          <li><strong>No advertising, no data mining.</strong> Your home data is never used for ads, marketing, profiling or use-based data mining.</li>
+          <li><strong>No account, no tracking.</strong> Home Floorplan does not require a login and does not track you across other apps or websites.</li>
+        </ul>
+      </article>
+
+      <article class="policy-section" id="handling">
+        <p class="eyebrow orange">Data handling</p>
+        <h2>How your data is handled</h2>
+        <p>This is where your data may be used, and why.</p>
+
+        <h3>Apple Home and HomeKit</h3>
+        <p>With your permission, granted through the iPadOS system prompt, Home Floorplan reads information from Apple Home: the names of your home, rooms and accessories, which room each accessory belongs to, current accessory states such as on/off, brightness, lock state or blind position, and sensor readings such as temperature, humidity, air quality, light, motion and contact sensors.</p>
+        <p>The app can also send commands to your accessories when you control them from the floorplan. This data is stored in Apple's on-device HomeKit database and on your iPad. You can review or revoke access at any time in <strong>Settings -> Privacy &amp; Security -> HomeKit</strong>.</p>
         <p class="legal-note">Legal basis: consent through the system permission, Art. 6(1)(a) GDPR, and performance of the service you requested, Art. 6(1)(b) GDPR.</p>
-      </article>
 
-      <article class="policy-section">
-        <p class="eyebrow orange">On-device intelligence</p>
-        <h2>History, habits and floorplans</h2>
-        <p>To recognise patterns over time, the app keeps a rolling history of accessory events and sensor readings on your iPad. From that history it computes habits, behavioural patterns, usage anomalies and environmental suggestions entirely on device.</p>
-        <p>Your floorplan, rooms, layout, furniture, accessory markers and any image you import to trace over are also stored on your device. None of this is transmitted to me.</p>
+        <h3>History, habits and floorplans</h3>
+        <p>To recognise patterns over time, the app records accessory events and sensor readings and keeps a rolling history on your device. From that history it computes habits, behavioural patterns, usage anomalies and environmental suggestions entirely on your iPad.</p>
+        <p>The floorplan you draw, including rooms, layout, furniture, accessory markers and any image you import to trace over, is also stored on your device. None of this is transmitted to me.</p>
         <p class="legal-note">Legal basis: performance of the service you requested, Art. 6(1)(b) GDPR, and legitimate interest in providing the app's core features, Art. 6(1)(f) GDPR.</p>
-      </article>
 
-      <article class="policy-section">
-        <p class="eyebrow orange">Weather</p>
-        <h2>Apple WeatherKit</h2>
+        <h3>Apple WeatherKit</h3>
         <p>To show outdoor conditions next to your rooms, the app may request weather data from Apple WeatherKit using your home's approximate coordinates. The app does not use continuous or background location tracking and does not track your or your family's location.</p>
         <p>This request is handled by Apple and is subject to <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
         <p class="legal-note">Legal basis: legitimate interest in providing the weather feature, Art. 6(1)(f) GDPR.</p>
@@ -91,11 +109,11 @@
       <article class="policy-section">
         <p class="eyebrow orange">Optional AI</p>
         <h2>AI features are off by default</h2>
-        <p>Home Floorplan can use an AI model to add plain-language names or short explanations on top of patterns your iPad has already detected. These features are optional.</p>
+        <p>Home Floorplan can use an AI model to add plain-language touches on top of patterns your iPad has already detected, such as readable names or short explanations for a suggestion. These features are optional and off by default.</p>
         <ul>
           <li>You provide your own API key for the AI provider you choose. The key is stored securely in the iPad Keychain.</li>
           <li>When an AI feature runs, the app sends a small, pre-aggregated summary directly from your device to that provider.</li>
-          <li>It does not send raw event history and it does not pass through a Home Floorplan server.</li>
+          <li>It does not send raw event history and it never passes through a Home Floorplan server.</li>
         </ul>
         <p>Your use of that provider is governed by your own agreement with them, including their privacy policy, for example <a href="https://www.anthropic.com/legal/privacy">Anthropic</a> or <a href="https://openai.com/policies/privacy-policy">OpenAI</a>. You can turn AI features off or remove your API key at any time.</p>
         <p class="legal-note">Legal basis: consent, given by enabling the feature, Art. 6(1)(a) GDPR.</p>
@@ -109,7 +127,7 @@
         <p class="legal-note">Legal basis: legitimate interest in maintaining and improving the app, Art. 6(1)(f) GDPR.</p>
       </article>
 
-      <article class="policy-section policy-list">
+      <article class="policy-section policy-list" id="notdo">
         <p class="eyebrow orange">Limits</p>
         <h2>What I do not do</h2>
         <ul>
@@ -121,7 +139,7 @@
         </ul>
       </article>
 
-      <article class="policy-section">
+      <article class="policy-section" id="retention">
         <p class="eyebrow orange">Retention</p>
         <h2>How long data is kept</h2>
         <p>Detailed history, such as individual accessory events and sensor readings, is kept on your device on a rolling basis of about 30 days. After that, it is automatically removed, while condensed summaries may be kept so long-term insights continue to work.</p>
@@ -138,7 +156,7 @@
         </ul>
       </article>
 
-      <article class="policy-section">
+      <article class="policy-section" id="rights">
         <p class="eyebrow orange">Rights</p>
         <h2>Your rights</h2>
         <p>Under the GDPR and similar laws, you have the right to access, correct, delete, restrict or object to the processing of your personal data, and the right to data portability. Where processing is based on consent, you may withdraw it at any time.</p>
@@ -146,12 +164,13 @@
         <p>You also have the right to lodge a complaint with a data protection authority. In Italy, this is the <em>Garante per la protezione dei dati personali</em>.</p>
       </article>
 
-      <article class="policy-section">
+      <article class="policy-section" id="contact">
         <p class="eyebrow orange">Other notes</p>
         <h2>Children, transfers and changes</h2>
         <p>Home Floorplan is not directed at children and is not intended for use by children. I do not knowingly collect personal data from children.</p>
         <p>Your home data is processed on your device and is not transferred by me. If you enable optional AI features, summaries go to the provider you choose, which may process them outside the EU/EEA under your agreement with that provider. Apple services such as WeatherKit are operated by Apple under its own safeguards.</p>
         <p>If this policy changes in a meaningful way, I will update this page and the date above before the change takes effect.</p>
+        <p>For privacy questions, write to <a href="mailto:hello@gethomefloorplan.app?subject=Home%20Floorplan%20Privacy">hello@gethomefloorplan.app</a>.</p>
       </article>
     </section>
   </main>
@@ -163,12 +182,11 @@
     </div>
     <div class="footer-grid">
       <div><h4>Home Floorplan</h4><a href="index.html">Home</a><a href="support.html">Support</a><a href="contact.html">Contact</a></div>
-      <div><h4>Updates</h4><a href="release-notes.html">Release Notes</a></div>
-      <div><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></div>
+      <div><h4>Legal</h4><a href="privacy.html">Privacy Policy</a></div>
       <div><h4>Language</h4><span class="footer-note">English</span><a href="it/privacy.html">Italiano</a></div>
     </div>
     <div class="footer-bottom"><span>© 2026 Home Floorplan</span><span>Designed for iPad and Apple Home.</span></div>
   </footer>
-  <script src="script.js?v=atlas-20260629-privacy-1"></script>
+  <script src="script.js?v=atlas-20260629-privacy-2"></script>
 </body>
 </html>

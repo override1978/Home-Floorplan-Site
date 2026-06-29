@@ -458,6 +458,35 @@ footer { width: min(var(--max), calc(100% - 40px)); margin: 0 auto 40px; display
   font-size: 18px;
 }
 .policy-intro p + p { margin-top: 12px; }
+.policy-callout {
+  padding: 16px 18px;
+  border: 1px solid rgba(255,122,38,.18);
+  border-radius: 22px;
+  background: rgba(255,122,38,.08);
+}
+.privacy-index {
+  max-width: 930px;
+  margin: 0 auto 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.privacy-index a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 10px 15px;
+  border: 1px solid var(--stroke);
+  border-radius: 999px;
+  background: rgba(255,255,255,.7);
+  box-shadow: 0 12px 34px rgba(0,0,0,.04);
+  color: rgba(21,21,23,.62);
+  font-size: 14px;
+  font-weight: 760;
+  letter-spacing: 0;
+}
+.privacy-index a:hover { color: var(--ink); transform: translateY(-1px); }
 .policy-intro strong, .policy-section strong { color: var(--ink); }
 .policy-section h2 {
   margin: 8px 0 18px;
@@ -465,6 +494,13 @@ footer { width: min(var(--max), calc(100% - 40px)); margin: 0 auto 40px; display
   line-height: 1;
   letter-spacing: 0;
 }
+.policy-section h3 {
+  margin: 30px 0 10px;
+  font-size: clamp(22px, 2.6vw, 32px);
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+.policy-section h3:first-of-type { margin-top: 18px; }
 .policy-section p { margin: 0 0 14px; }
 .policy-section p:last-child { margin-bottom: 0; }
 .policy-section ul {
