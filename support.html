@@ -3,12 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Support — Home Floorplan</title>
-  <meta name="description" content="Support information for Home Floorplan." />
+  <title>Support - Home Floorplan</title>
+  <meta name="description" content="Support and practical answers for Home Floorplan: setup, accessories, drawing, habits, automations, privacy and beta feedback." />
   <meta name="theme-color" content="#fff7ef" />
   <link rel="canonical" href="https://gethomefloorplan.app/support.html" />
-  <meta property="og:title" content="Support — Home Floorplan" />
-  <meta property="og:description" content="Support information for Home Floorplan." />
+  <link rel="alternate" hreflang="en" href="https://gethomefloorplan.app/support.html" />
+  <link rel="alternate" hreflang="it" href="https://gethomefloorplan.app/it/support.html" />
+  <link rel="alternate" hreflang="x-default" href="https://gethomefloorplan.app/support.html" />
+  <meta property="og:title" content="Support - Home Floorplan" />
+  <meta property="og:description" content="Support and practical answers for Home Floorplan: setup, accessories, drawing, habits, automations, privacy and beta feedback." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://gethomefloorplan.app/support.html" />
   <meta property="og:image" content="https://gethomefloorplan.app/assets/app-icon.webp" />
@@ -18,7 +21,7 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="icon" href="assets/app-icon.webp" />
   <link rel="shortcut icon" href="assets/app-icon.webp" />
-  <link rel="stylesheet" href="styles.css?v=atlas-20260628-cache-1" />
+  <link rel="stylesheet" href="styles.css?v=atlas-20260629-support-1" />
 </head>
 <body>
   <div class="ambient ambient-one" aria-hidden="true"></div>
@@ -31,29 +34,171 @@
     <nav>
       <a href="index.html#chapters">Experience</a>
       <a href="privacy.html">Privacy</a>
+      <span class="language-switch" aria-label="Language"><a class="is-active" href="support.html" aria-current="page">EN</a><a href="it/support.html">IT</a></span>
     </nav>
   </header>
-  <main class="content-page">
-    <section class="page-hero" data-reveal>
+
+  <main class="content-page support-page">
+    <section class="page-hero support-hero" data-reveal>
       <p class="eyebrow">Support</p>
-      <h1>Support for the beta.</h1>
-      <p>Home Floorplan is still evolving. These notes define the support areas that will be expanded as the beta opens.</p>
+      <h1>Answers from the person building it.</h1>
+      <p>Home Floorplan is built by one person. This page covers the questions that come up most during the beta: setup, accessories, drawing, habits, automations and privacy. If something is still unclear, write to me directly.</p>
     </section>
 
-    <section class="support-list" data-reveal>
-      <article id="getting-started"><h2>Getting Started</h2><p>Use an iPad in landscape, create or open a floorplan and start connecting rooms to your Apple Home context.</p></article>
-      <article id="floorplans"><h2>Floorplans</h2><p>The floorplan is the main navigation model. Rooms, accessories and state should be placed where they make spatial sense.</p></article>
-      <article id="environment"><h2>Environment</h2><p>Environment views are designed to make comfort and air quality readable by room rather than as disconnected sensor values.</p></article>
-      <article id="security"><h2>Security</h2><p>Security views use room context to make doors, windows and motion events easier to scan quickly.</p></article>
-      <article id="habits"><h2>Habits & AI</h2><p>Habits should explain patterns and opportunities without becoming a generic chatbot experience.</p></article>
-    </section>
+    <nav class="support-index" aria-label="Support sections" data-reveal>
+      <a href="#start">Before you start</a>
+      <a href="#accessories">Setup and accessories</a>
+      <a href="#drawing">Drawing</a>
+      <a href="#intelligence">Habits and intelligence</a>
+      <a href="#usage">Usage</a>
+      <a href="#automations">Automations and home hub</a>
+      <a href="#privacy">Privacy and data</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-    <section class="contact-card" data-reveal>
-      <h2>Need direct help?</h2>
-      <p>Send a support request, beta feedback or bug report.</p>
-      <div class="join-actions"><a class="button primary" href="mailto:support@gethomefloorplan.app?subject=Home%20Floorplan%20Support">Email support</a><a class="button secondary" href="contact.html">Contact options</a></div>
-    </section>
+    <div class="support-sections">
+      <section id="start" class="support-block" data-reveal>
+        <p class="eyebrow orange">Before you start</p>
+        <h2>What you need</h2>
+        <div class="support-callout">
+          Home Floorplan reads the home you already have in Apple Home. It does not pair accessories itself: set them up in the Apple Home app first, then place them on your floorplan.
+        </div>
+        <ol class="support-steps">
+          <li>An iPad running iPadOS 17 or later, ideally used in landscape.</li>
+          <li>A home already configured in the Apple Home app, with at least one accessory.</li>
+          <li>HomeKit access granted to Home Floorplan when iPadOS asks for permission.</li>
+        </ol>
+      </section>
+
+      <section id="accessories" class="support-block" data-reveal>
+        <p class="eyebrow orange">Setup and accessories</p>
+        <h2>Getting your devices to appear</h2>
+
+        <details class="support-qa">
+          <summary>I do not see my accessories in the app</summary>
+          <div>
+            <p>Start with Apple Home. If an accessory is not visible or responding there, Home Floorplan cannot show it yet.</p>
+            <ol class="support-steps">
+              <li>Open the Apple Home app and check that the accessories are online.</li>
+              <li>Open iPad Settings, then Privacy and Security, then HomeKit, and make sure Home Floorplan is allowed.</li>
+            </ol>
+            <p>If everything looks right and the app is still empty, fully quit and reopen it. HomeKit sometimes needs a moment to hand over fresh data after launch.</p>
+          </div>
+        </details>
+
+        <details class="support-qa">
+          <summary>An accessory has the wrong icon or category</summary>
+          <div>
+            <p>Some devices describe themselves to HomeKit in a very generic way. A smart switch may look like a switch even if it controls a light, and some accessories do not expose a clear type at all.</p>
+            <p>Home Floorplan keeps improving these mappings. If something is clearly wrong, send the make and model and I will use it to improve recognition.</p>
+          </div>
+        </details>
+
+        <details class="support-qa">
+          <summary>Why is Home Floorplan iPad only?</summary>
+          <div>
+            <p>The app is built around a floorplan you can read and touch at a glance. That makes the most sense on a larger screen, especially on an iPad mounted in a hallway or kitchen.</p>
+            <p>A lighter companion experience for other devices may come later, but the iPad is the main home for this product.</p>
+          </div>
+        </details>
+      </section>
+
+      <section id="drawing" class="support-block" data-reveal>
+        <p class="eyebrow orange">Drawing</p>
+        <h2>Building and editing your plan</h2>
+
+        <details class="support-qa">
+          <summary>Can I import a plan instead of drawing from scratch?</summary>
+          <div>
+            <p>Importing an image to trace over is planned. The idea is simple: drop in a picture of your floorplan, then draw the rooms on top of it.</p>
+            <p>I am not focusing on LiDAR room scanning right now. Other apps already do that, and it only works on iPads with the sensor. Tracing works on any iPad.</p>
+          </div>
+        </details>
+
+        <details class="support-qa">
+          <summary>What changed in the drawing tools?</summary>
+          <div>
+            <p>Recent updates added Architectural Dark Mode for saving plans while iPadOS is in dark mode, floorplan rotation for working with markers, and more furniture types. You can rotate furniture and hide its name when the plan needs to stay clean.</p>
+            <p>These changes work with existing plans too. You do not need to redraw anything.</p>
+          </div>
+        </details>
+      </section>
+
+      <section id="intelligence" class="support-block" data-reveal>
+        <p class="eyebrow orange">Habits and intelligence</p>
+        <h2>What the app learns, and when</h2>
+
+        <details class="support-qa">
+          <summary>Why do I not see habits or suggestions yet?</summary>
+          <div>
+            <p>Home Floorplan learns from real use, so it needs real days of data. A pattern has to repeat before it becomes useful enough to show.</p>
+            <p>The Habits screen can show patterns that are still forming, so you can see that the app is learning even before it has a recommendation.</p>
+          </div>
+        </details>
+
+        <details class="support-qa">
+          <summary>Does it need an AI key?</summary>
+          <div>
+            <p>No. Pattern detection runs on your iPad and does not need a key.</p>
+            <p>Optional AI features, such as clearer names or plain-language explanations, use your own API key only if you choose to add one. The app still works without it.</p>
+          </div>
+        </details>
+      </section>
+
+      <section id="usage" class="support-block" data-reveal>
+        <p class="eyebrow orange">Usage</p>
+        <h2>What usage figures mean</h2>
+        <div class="support-callout">
+          Usage means how long something has been on. It is not an energy bill and it does not estimate watts, kWh or cost, because standard HomeKit does not provide that data.
+        </div>
+
+        <details class="support-qa">
+          <summary>I got a strange usage alert after installing</summary>
+          <div>
+            <p>In the first few days, before there is enough history, some accessories can look unusually active. Thermostatic valves are a common example.</p>
+            <p>It usually settles as the app gathers real data. If one accessory keeps being noisy, you can exclude it from usage monitoring.</p>
+          </div>
+        </details>
+      </section>
+
+      <section id="automations" class="support-block" data-reveal>
+        <p class="eyebrow orange">Automations and home hub</p>
+        <h2>When rules run reliably</h2>
+
+        <details class="support-qa">
+          <summary>My automations do not run when I am away from the iPad</summary>
+          <div>
+            <p>For automations to run on their own, Apple requires a home hub in the house: a HomePod, HomePod mini or Apple TV.</p>
+            <p>With the latest Apple Home architecture, an iPad can no longer act as a home hub. If automations only work while you are actively using the app, a missing home hub is usually the reason.</p>
+          </div>
+        </details>
+      </section>
+
+      <section id="privacy" class="support-block" data-reveal>
+        <p class="eyebrow orange">Privacy and data</p>
+        <h2>Where your home data lives</h2>
+
+        <details class="support-qa">
+          <summary>Does my home data leave the device?</summary>
+          <div>
+            <p>Learning and analysis happen on your iPad. There is no Home Floorplan server collecting your accessory activity.</p>
+            <p>The only exception is optional: if you enable AI features with your own API key, the summary needed for that request goes directly to the provider you choose. See the <a href="privacy.html">Privacy Policy</a> for the details.</p>
+          </div>
+        </details>
+      </section>
+
+      <section id="contact" class="support-block support-contact" data-reveal>
+        <p class="eyebrow orange">Contact</p>
+        <h2>Need direct help?</h2>
+        <p>There is one person behind the app, so I cannot promise an exact response time, but I read everything. During the beta, TestFlight feedback is the best way to report a bug because it can include a screenshot and device details.</p>
+        <div class="join-actions">
+          <a class="button primary" href="contact.html">Contact options</a>
+          <a class="button secondary" href="release-notes.html">Release notes</a>
+        </div>
+      </section>
+    </div>
   </main>
+
   <footer class="site-footer">
     <div class="footer-brand">
       <img src="assets/app-icon.webp" alt="" />
@@ -63,10 +208,10 @@
       <div><h4>Home Floorplan</h4><a href="index.html">Home</a><a href="support.html">Support</a><a href="contact.html">Contact</a></div>
       <div><h4>Updates</h4><a href="release-notes.html">Release Notes</a></div>
       <div><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></div>
-      <div><h4>Beta</h4><a href="mailto:hello@gethomefloorplan.app?subject=Home%20Floorplan%20Beta">Join the beta</a><a href="mailto:hello@gethomefloorplan.app?subject=Home%20Floorplan%20Feedback">Send feedback</a></div>
+      <div><h4>Language</h4><span class="footer-note">English</span><a href="it/support.html">Italiano</a></div>
     </div>
     <div class="footer-bottom"><span>© 2026 Home Floorplan</span><span>Designed for iPad and Apple Home.</span></div>
   </footer>
-  <script src="script.js?v=atlas-20260628-cache-1"></script>
+  <script src="script.js?v=atlas-20260629-support-1"></script>
 </body>
 </html>

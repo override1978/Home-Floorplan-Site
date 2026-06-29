@@ -386,6 +386,128 @@ footer { width: min(var(--max), calc(100% - 40px)); margin: 0 auto 40px; display
 .policy-block a { color: var(--orange); font-weight: 760; }
 .support-list, .release-list { max-width: 980px; margin: 0 auto 72px; display: grid; gap: 16px; }
 .support-list article, .release-list article { padding: 30px; }
+.support-page { max-width: 1080px; }
+.support-hero { max-width: 980px; }
+.support-index {
+  max-width: 960px;
+  margin: -22px auto 54px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.support-index a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 10px 15px;
+  border: 1px solid var(--stroke);
+  border-radius: 999px;
+  background: rgba(255,255,255,.68);
+  box-shadow: 0 12px 34px rgba(0,0,0,.04);
+  color: rgba(21,21,23,.62);
+  font-size: 14px;
+  font-weight: 760;
+  letter-spacing: 0;
+}
+.support-index a:hover { color: var(--ink); transform: translateY(-1px); }
+.support-sections {
+  max-width: 930px;
+  margin: 0 auto 72px;
+  display: grid;
+  gap: 18px;
+}
+.support-block {
+  padding: clamp(26px, 5vw, 52px);
+  border: 1px solid var(--stroke);
+  border-radius: 30px;
+  background: rgba(255,255,255,.78);
+  box-shadow: 0 18px 60px rgba(0,0,0,.055);
+}
+.support-block h2 {
+  margin: 8px 0 22px;
+  font-size: clamp(30px, 4.4vw, 58px);
+  line-height: .98;
+  letter-spacing: 0;
+}
+.support-callout {
+  margin: 0 0 22px;
+  padding: 18px 20px;
+  border: 1px solid rgba(255,122,38,.18);
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(255,255,255,.78), rgba(255,243,232,.72));
+  color: rgba(21,21,23,.66);
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+.support-steps {
+  margin: 0;
+  padding-left: 24px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.55;
+}
+.support-steps li + li { margin-top: 8px; }
+.support-qa {
+  border-top: 1px solid rgba(21,21,23,.08);
+}
+.support-qa:last-child { border-bottom: 1px solid rgba(21,21,23,.08); }
+.support-qa summary {
+  position: relative;
+  cursor: pointer;
+  list-style: none;
+  padding: 22px 42px 22px 0;
+  color: var(--ink);
+  font-size: clamp(19px, 2vw, 24px);
+  font-weight: 820;
+  line-height: 1.16;
+  letter-spacing: 0;
+}
+.support-qa summary::-webkit-details-marker { display: none; }
+.support-qa summary::after {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: rgba(255,122,38,.12);
+  color: var(--orange);
+  font-size: 22px;
+  font-weight: 640;
+  line-height: 1;
+}
+.support-qa[open] summary::after { content: "-"; }
+.support-qa summary:focus-visible {
+  outline: 2px solid rgba(255,90,31,.55);
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+.support-qa div {
+  padding: 0 4px 24px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.55;
+}
+.support-qa p { margin: 0 0 12px; }
+.support-qa p:last-child { margin-bottom: 0; }
+.support-qa a { color: var(--orange); font-weight: 760; }
+.support-contact {
+  text-align: center;
+  background: linear-gradient(135deg,#fff,#fff2e7);
+}
+.support-contact p:not(.eyebrow) {
+  max-width: 700px;
+  margin: 0 auto 24px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.5;
+}
 .contact-card { text-align: center; background: linear-gradient(135deg,#fff,#fff2e7); }
 .contact-options { grid-template-columns: repeat(2, 1fr); max-width: 980px; }
 .contact-options a { display: grid; gap: 8px; transition: transform 180ms ease, box-shadow 180ms ease; }
@@ -421,5 +543,10 @@ footer { width: min(var(--max), calc(100% - 40px)); margin: 0 auto 40px; display
   .page-hero { margin-bottom: 34px; }
   .page-hero h1 { font-size: clamp(44px, 14vw, 70px); }
   .page-hero p:not(.eyebrow) { font-size: 18px; }
+  .support-index { justify-content: flex-start; margin-top: -12px; margin-bottom: 34px; }
+  .support-index a { min-height: 38px; font-size: 13px; }
+  .support-block { border-radius: 24px; padding: 24px; }
+  .support-block h2 { font-size: clamp(31px, 10vw, 46px); }
+  .support-callout, .support-contact p:not(.eyebrow) { font-size: 16px; }
   .site-footer { width: min(100% - 24px, var(--max)); padding: 24px; }
 }
