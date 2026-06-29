@@ -3,12 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact — Home Floorplan</title>
-  <meta name="description" content="Contact Home Floorplan support and beta feedback." />
+  <title>Contact - Home Floorplan</title>
+  <meta name="description" content="Contact Home Floorplan for beta feedback, support, bug reports and product suggestions." />
   <meta name="theme-color" content="#fff7ef" />
   <link rel="canonical" href="https://gethomefloorplan.app/contact.html" />
-  <meta property="og:title" content="Contact — Home Floorplan" />
-  <meta property="og:description" content="Contact Home Floorplan support and beta feedback." />
+  <link rel="alternate" hreflang="en" href="https://gethomefloorplan.app/contact.html" />
+  <link rel="alternate" hreflang="it" href="https://gethomefloorplan.app/it/contact.html" />
+  <link rel="alternate" hreflang="x-default" href="https://gethomefloorplan.app/contact.html" />
+  <meta property="og:title" content="Contact - Home Floorplan" />
+  <meta property="og:description" content="Contact Home Floorplan for beta feedback, support, bug reports and product suggestions." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://gethomefloorplan.app/contact.html" />
   <meta property="og:image" content="https://gethomefloorplan.app/assets/app-icon.webp" />
@@ -18,7 +21,7 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="icon" href="assets/app-icon.webp" />
   <link rel="shortcut icon" href="assets/app-icon.webp" />
-  <link rel="stylesheet" href="styles.css?v=atlas-20260628-cache-1" />
+  <link rel="stylesheet" href="styles.css?v=atlas-20260629-contact-1" />
 </head>
 <body>
   <div class="ambient ambient-one" aria-hidden="true"></div>
@@ -31,22 +34,57 @@
     <nav>
       <a href="index.html#chapters">Experience</a>
       <a href="privacy.html">Privacy</a>
+      <span class="language-switch" aria-label="Language"><a class="is-active" href="contact.html" aria-current="page">EN</a><a href="it/contact.html">IT</a></span>
     </nav>
   </header>
-  <main class="content-page">
-    <section class="page-hero" data-reveal>
+
+  <main class="content-page contact-page">
+    <section class="page-hero contact-hero" data-reveal>
       <p class="eyebrow">Contact</p>
-      <h1>Talk to Home Floorplan.</h1>
-      <p>Use these links for beta access, support, bug reports or product suggestions.</p>
+      <h1>Write directly to the maker.</h1>
+      <p>Home Floorplan is still in beta, and thoughtful feedback matters. Use email for support, ideas, setup questions, or anything that feels unclear while using the app.</p>
+    </section>
+
+    <section class="contact-direct" data-reveal>
+      <img src="assets/app-icon.webp" alt="" />
+      <div>
+        <p class="eyebrow orange">Email</p>
+        <h2>maurizio.cinti@outlook.com</h2>
+        <p>I read everything myself. I cannot promise an exact response time, but clear reports and concrete examples are genuinely useful while the app is taking shape.</p>
+      </div>
+      <a class="button primary" href="mailto:maurizio.cinti@outlook.com?subject=Home%20Floorplan%20Support">Send email</a>
     </section>
 
     <section class="contact-options" data-reveal>
-      <a href="mailto:hello@gethomefloorplan.app?subject=Home%20Floorplan%20Beta"><strong>Join the beta</strong><span>Request TestFlight access when available.</span></a>
-      <a href="mailto:support@gethomefloorplan.app?subject=Home%20Floorplan%20Support"><strong>Contact support</strong><span>Get help with setup or usage.</span></a>
-      <a href="mailto:bugs@gethomefloorplan.app?subject=Home%20Floorplan%20Bug"><strong>Report a bug</strong><span>Send device, iPadOS version and steps to reproduce.</span></a>
-      <a href="mailto:feedback@gethomefloorplan.app?subject=Home%20Floorplan%20Feature%20Request"><strong>Suggest a feature</strong><span>Share an idea for rooms, habits, AI or Apple Home integration.</span></a>
+      <a href="mailto:maurizio.cinti@outlook.com?subject=Home%20Floorplan%20Beta">
+        <strong>Beta access</strong>
+        <span>Questions about TestFlight, availability or trying the app on your iPad.</span>
+      </a>
+      <a href="mailto:maurizio.cinti@outlook.com?subject=Home%20Floorplan%20Support">
+        <strong>Support</strong>
+        <span>Help with setup, Apple Home access, accessories or using the floorplan.</span>
+      </a>
+      <a href="mailto:maurizio.cinti@outlook.com?subject=Home%20Floorplan%20Bug">
+        <strong>Bug report</strong>
+        <span>Include your iPad model, iPadOS version, what happened and how to reproduce it.</span>
+      </a>
+      <a href="mailto:maurizio.cinti@outlook.com?subject=Home%20Floorplan%20Suggestion">
+        <strong>Product suggestion</strong>
+        <span>Ideas for rooms, drawing, habits, automations or Apple Home integration.</span>
+      </a>
+    </section>
+
+    <section class="contact-note" data-reveal>
+      <p class="eyebrow orange">Beta feedback</p>
+      <h2>For bugs, TestFlight helps too.</h2>
+      <p>If you are using the beta, TestFlight feedback is often the fastest way to report a visual glitch or crash because it can include a screenshot and device details automatically. For everything else, email is perfect.</p>
+      <div class="join-actions">
+        <a class="button primary" href="https://testflight.apple.com/join/fqDXYaDV">Open TestFlight</a>
+        <a class="button secondary" href="support.html">Read support</a>
+      </div>
     </section>
   </main>
+
   <footer class="site-footer">
     <div class="footer-brand">
       <img src="assets/app-icon.webp" alt="" />
@@ -56,10 +94,10 @@
       <div><h4>Home Floorplan</h4><a href="index.html">Home</a><a href="support.html">Support</a><a href="contact.html">Contact</a></div>
       <div><h4>Updates</h4><a href="release-notes.html">Release Notes</a></div>
       <div><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></div>
-      <div><h4>Beta</h4><a href="mailto:hello@gethomefloorplan.app?subject=Home%20Floorplan%20Beta">Join the beta</a><a href="mailto:hello@gethomefloorplan.app?subject=Home%20Floorplan%20Feedback">Send feedback</a></div>
+      <div><h4>Language</h4><span class="footer-note">English</span><a href="it/contact.html">Italiano</a></div>
     </div>
     <div class="footer-bottom"><span>© 2026 Home Floorplan</span><span>Designed for iPad and Apple Home.</span></div>
   </footer>
-  <script src="script.js?v=atlas-20260628-cache-1"></script>
+  <script src="script.js?v=atlas-20260629-contact-1"></script>
 </body>
 </html>
